@@ -16,7 +16,9 @@
 4、添加CAShapeLayer 加入path路径 根据它的**strokeEnd**属性来绘制
 
 `@property (nonatomic, assign) CGFloat progress;`
+
 `@property (nonatomic, strong) NSTimer *displayline;`
+
 /** 进度条图层 */
 `@property (nonatomic, strong) CAShapeLayer *progressLayer;`
 ```
@@ -89,6 +91,6 @@
 ```
 ###三、到这就基本差不多了
 ![如图.gif](https://upload-images.jianshu.io/upload_images/4881197-1edd5b2c5b0da811.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
->最后奉上热乎的demo
 
-[文件Demo]()
+
+
